@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import Header from './Header';
-import Main from './Main';
-import FavoriteCocktials from './FavoriteCocktials';
+import Header from './components/Header';
+import Main from './components/Main';
+import FavoriteCocktials from './components/FavoriteCocktials';
 class App extends Component {
   render() {
     return (
